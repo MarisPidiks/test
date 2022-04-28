@@ -134,10 +134,13 @@ a.navlink:hover {
     flex-direction: row;
     display: flex;
     justify-content: flex-start;
+    column-gap: 80px;
 }
 
-.col1 {
-    margin-right: 50px;
+@media only screen and (max-width: 1800px) {
+    .content-flex {
+        flex-direction: column;
+    }
 }
 
 #selfportrait {
